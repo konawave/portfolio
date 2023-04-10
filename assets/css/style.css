@@ -8,13 +8,17 @@ body {
 }
 
 header h1 {
-    display: inline-block;
+    margin: 0 auto;
+    border: solid black 10px;
+    margin: 0 auto;
+    width: 200px;
 }
 
-header article ul li { 
+header div ul { 
     list-style-type: none;
-    float: right;
     margin: 10px;
     display: inline-block;
     margin-top: 0px;
+    border: solid black 2px;
+    font-size: 30px;
 }
