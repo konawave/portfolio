@@ -2,51 +2,40 @@
     font-family:'Raleway', sans-serif;
 }
 
-body {
-    background-color: white;
-    color: black;
-    width: 1400px;
-    height: 1400px; 
+header {
+    border: solid black 2px;
+    height: 500px;
 }
 
 header h1 {
-    margin-left: 20px;
+    border: solid black 2px;
     width: 200px;
-    position: absolute;
-    top: 10px;
-    left: 100px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
 }
 
-header div ul { 
-    list-style-type: none;
-    margin: 0 auto;
-    margin-top: 20px;
-    font-size: 30px;
-    width: 500px;
-    display: flex;
-    justify-content: center;
-    background-color: #446df6;
+header img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    padding: 50px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 4px;
+}
 
-    
+header div ul {
+    list-style-type: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: solid black 2px;
+    width: 300px;
+    display: flex;
 }
 
 header div ul li {
-    margin-right: 10px;
-    font-weight: bold;
-}
-
-#avatar {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    top: 10px;
-    left: 10px;
-    position: absolute;
-}
-
-/* this will be deletable */
-#aboutme {
-    border: solid black 3px;
-    margin-top: 50px;
-    background-color: royalblue;
+    margin-right: 30px;
 }
