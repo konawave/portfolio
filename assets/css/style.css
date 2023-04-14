@@ -2,40 +2,52 @@
     font-family:'Raleway', sans-serif;
 }
 
-header {
-    border: solid black 2px;
-    height: 500px;
+body {
+    background-color: #38A3A5;
 }
 
-header h1 {
+header {
     border: solid black 2px;
-    width: 200px;
-    height: 50px;
-    margin: 0 auto;
-    text-align: center;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    background-color: #22577A;
 }
 
 header img {
     border-radius: 50%;
-    height: 150px;
-    width: 150px;
-    padding: 50px;
+    height: 80px;
+    width: 80px;
     display: block;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 4px;
+    border: solid black 10px;
 }
 
-header div ul {
+header ul {
     list-style-type: none;
-    position: absolute;
-    top: 20px;
-    right: 20px;
     border: solid black 2px;
+    height: 50px;
     width: 300px;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold; 
+    margin-top: 10px;
 }
 
-header div ul li {
-    margin-right: 30px;
+header ul li {
+    margin: 5px;
+}
+
+header h1 {
+    border: solid black 2px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+header ul li a {
+    color: white;
+    font-size: 20px;
 }
