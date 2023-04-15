@@ -10,7 +10,7 @@ header {
     border: solid black 2px;
     height: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     color: white;
     font-size: 20px;
@@ -21,7 +21,6 @@ header img {
     border-radius: 50%;
     height: 80px;
     width: 80px;
-    display: block;
     border: solid black 10px;
 }
 
@@ -29,7 +28,7 @@ header ul {
     list-style-type: none;
     border: solid black 2px;
     height: 50px;
-    width: 300px;
+    width: 700px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -38,16 +37,44 @@ header ul {
 }
 
 header ul li {
-    margin: 5px;
+    margin: 2px;
 }
 
 header h1 {
     border: solid black 2px;
-    height: 50px;
-    margin-top: 10px;
+    height: 100px;
+    font-size: 80px
 }
 
 header ul li a {
     color: white;
+    font-size: 40px;
+}
+
+.aboutme {
+    border: solid black 2px;
+    background-color: #C7F9CC;
+    color: black;
+}
+
+.aboutme h2 {
+    font-size: 30px;
+}
+
+.aboutme p {
     font-size: 20px;
+}
+
+.portfolio {
+    border: solid black 2px;
+    display: flex;
+    height: 1500px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mainproj img{
+    height: 500px;
+    width: 500px;
+    justify-self: center;
 }
