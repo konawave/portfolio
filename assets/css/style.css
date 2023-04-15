@@ -2,6 +2,11 @@
     font-family:'Raleway', sans-serif;
 }
 
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #38A3A5;
 }
@@ -48,24 +53,24 @@ header ul li a {
     font-size: 40px;
 }
 
-.aboutme {
+#aboutme {
     border: solid black 2px;
     background-color: #C7F9CC;
     color: black;
 }
 
-.aboutme h2 {
+#aboutme h2 {
     font-size: 30px;
 }
 
-.aboutme p {
+#aboutme p {
     font-size: 20px;
 }
 
 .portfolio {
     border: solid black 2px;
     display: flex;
-    height: 1500px;
+    height: 1000px;
     width: 1000px;
     flex-direction: column;
     align-items: center;
@@ -76,6 +81,8 @@ header ul li a {
 #mainproj img{
     height: 500px;
     width: 500px;
+    object-fit: cover;
+    border: solid black 1px;
 }
 
 .portfolio figure figcaption {
@@ -92,4 +99,18 @@ header ul li a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+#contact {
+    background-color: #C7F9CC;
+    border: solid black 2px;
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
 }
