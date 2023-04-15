@@ -9,6 +9,7 @@ html {
 
 body {
     background-color: #38A3A5;
+    border: solid black 2px;
 }
 
 header {
@@ -36,7 +37,6 @@ header ul {
     width: 530px;
     display: flex;
     flex-direction: row;
-    border: black solid 2px;
     font-weight: bold; 
     margin-top: 10px;
 }
@@ -48,11 +48,17 @@ header ul li {
 header h1 {
     height: 100px;
     font-size: 80px;
+    width: 530px;
 }
 
 header ul li a {
     color: white;
     font-size: 40px;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    color: salmon;
 }
 
 #aboutme {
@@ -115,4 +121,13 @@ header ul li a {
 footer {
     display: flex;
     justify-content: center;
+}
+
+@media screen and (max-width: 376px) {
+    header {
+        width: 100%;
+    }
+    body {
+        width: 100%;
+    }
 }
