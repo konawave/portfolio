@@ -7,7 +7,6 @@ body {
 }
 
 header {
-    border: solid black 2px;
     height: 100px;
     display: flex;
     justify-content: space-around;
@@ -21,27 +20,25 @@ header img {
     border-radius: 50%;
     height: 80px;
     width: 80px;
-    border: solid black 10px;
 }
 
 header ul {
     list-style-type: none;
-    border: solid black 2px;
     height: 50px;
     width: 700px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+
     font-weight: bold; 
     margin-top: 10px;
 }
 
 header ul li {
     margin: 2px;
+    justify-self: right;
 }
 
 header h1 {
-    border: solid black 2px;
     height: 100px;
     font-size: 80px
 }
@@ -69,12 +66,30 @@ header ul li a {
     border: solid black 2px;
     display: flex;
     height: 1500px;
+    width: 1000px;
     flex-direction: column;
     align-items: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 #mainproj img{
     height: 500px;
     width: 500px;
-    justify-self: center;
+}
+
+.portfolio figure figcaption {
+    border: solid black 2px;
+    display: flex;
+    justify-content: center;
+    background-color: #C7F9CC;
+}
+
+.portfolio .sideproj {
+    border: solid black 2px;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
