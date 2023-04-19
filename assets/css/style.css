@@ -1,175 +1,35 @@
 * {
     font-family:'Raleway', sans-serif;
+    border: solid 1px black;
 }
-
-
 
 html,
 body {
     scroll-behavior: smooth;
-    margin: 0px;
-    padding: 0px;
-    height: 100%;
-    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
 }
 
  body {
     background-color: #38A3A5;
     border: solid black 2px;
-    height: 100%;
-    width: 100%;
-    padding: 0;
-    margin: 0;
     
 }
 
 header {
-    height: 100px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     color: white;
-    font-size: 20px;
     background-color: #22577A;
     border: black solid 2px;
-}
-
- header img {
-    border-radius: 50%;
-    height: 80px;
-    width: 80px;
-    object-fit: cover;
-    border: solid black 1px;
-}
-
-header ul {
-    list-style-type: none;
-    height: 100%;
-    width: 30%;
     display: flex;
-    align-items: center;
-    font-weight: bold; 
-    border: black solid 2px;
-
-}
-
-header ul li {
-    margin: 0 auto;
-}
-
-header h1 {
-    border: solid black 2px;
-    height: 100%;
-    font-size: 80px;
-    width: 30%;
-}
-
-header ul li a {
-    color: white;
-    font-size: 20px;
-    text-decoration: none;
-    border: solid black 2px;
-}
-
-header ul li a:hover {
-    color: salmon;
-}
-
-#aboutme {
-    border: solid black 2px;
-    background-color: #C7F9CC;
-    color: black;
-}
-
-#aboutme h2 {
-    font-size: 30px;
-}
-
-#aboutme p {
-    font-size: 20px;
-}
-
-.portfolio {
-    border: solid black 2px;
-    display: flex;
-    height: 100%;
-    width: 100%;
     flex-direction: column;
     align-items: center;
-    margin: 0 auto;
-    flex-wrap: wrap;
-}
+    height: 30%;
 
-#mainproj img{
-    height: 500px;
-    width: 500px;
-    object-fit: cover;
-    border: solid black 1px;
-}
-
-.portfolio figure figcaption {
-    border: solid black 2px;
-    display: flex;
-    justify-content: center;
-    background-color: #C7F9CC;
-}
-
-.portfolio .sideproj {
-    border: solid black 2px;
-    width: 800px;
-    height: 400px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.portfolio .sideproj img {
-    border: solid black 2px;
-}
-
-#contact {
-    background-color: #C7F9CC;
-    border: solid black 2px;
-    width: 600px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-}
-
-footer {
-    display: flex;
-    justify-content: center; 
-}
-/* ---- */
- @media (max-width: 415px) {
-    html,
-body {
-    scroll-behavior: smooth;
-    margin: 0px;
-    padding: 0px;
-    height: 100%;
-}
-
- body {
-    background-color: #38A3A5;
-    border: solid black 2px;
-}
-/* HEADER SECTION */
-header {
-    height: 5%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-    font-size: 70%;
-    background-color: #22577A;
-    border: black solid 2px;
 }
 
  header img {
     border-radius: 50%;
-    height: 100%;
+    height: 25%;
     width: 25%;
     object-fit: cover;
     border: solid black 1px;
@@ -177,101 +37,98 @@ header {
 
 header ul {
     list-style-type: none;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
     font-weight: bold; 
-    
+    border: black solid 2px;
+    display: flex;
+    width: 80%;
+
 }
 
 header ul li {
-    margin: 0 auto;
+    
 }
 
 header h1 {
-    height: 100%;
-    font-size: 70%;
-    width: 40%;
+    border: solid black 2px;
+    align-self: center;
+
 }
 
 header ul li a {
     color: white;
-    font-size: 80%;
     text-decoration: none;
+    border: solid black 2px;
 }
 
 header ul li a:hover {
     color: salmon;
 }
 
-/* END OF HEADER SECTION */
-/* ABOUTME SECTION START */
 #aboutme {
     border: solid black 2px;
     background-color: #C7F9CC;
     color: black;
+    display: block;
+
 }
 
 #aboutme h2 {
-    font-size: 30px;
+    display: flex;
+    justify-content: center;
+
 }
 
 #aboutme p {
-    font-size: 20px;
-}
-/* ABOUTME SECTION END 
-PORTFOLIO SECTION START*/
-.portfolio {
-    border: solid black 2px;
-    display: flex;
-    height: 1000px;
-    width: 1000px;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-    flex-wrap: wrap;
+    margin-left: 3px;
+    margin-right: 3px;
 }
 
+.portfolio {
+    border: solid black 2px;
+}
+
+#mainproj {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 70%;
+}
 #mainproj img{
-    height: 500px;
-    width: 500px;
+    height: 100%;
+    width: 100%;
     object-fit: cover;
     border: solid black 1px;
 }
 
+.portfolio figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
 .portfolio figure figcaption {
     border: solid black 2px;
-    display: flex;
-    justify-content: center;
     background-color: #C7F9CC;
 }
 
 .portfolio .sideproj {
     border: solid black 2px;
-    width: 800px;
-    height: 400px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    
 }
-/* PORTFOLIO SECTION END
-CONTACT SECTION START */
+
+.portfolio .sideproj img {
+    border: solid black 2px;
+    width: 50%;
+    height: 50%;
+}
 
 #contact {
     background-color: #C7F9CC;
     border: solid black 2px;
-    width: 600px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
 }
-/* CONTACT SECTION END
-FOOTER SECTION START */
+
 footer {
     display: flex;
     justify-content: center; 
 }
-}
-/* FOOTER SECTION END
-END OF CSS */
