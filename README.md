@@ -42,7 +42,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 * This project was crucial for me learning and familiarizing myself with the Box Model. 
 
 ## Link to Deployed Application
-
+https://konawave.github.io/portfolio/
 
 ## Comments
 
