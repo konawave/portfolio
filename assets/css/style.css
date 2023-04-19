@@ -1,18 +1,18 @@
 * {
     font-family:'Raleway', sans-serif;
-    border: solid 1px black;
 }
 
 html,
 body {
     scroll-behavior: smooth;
-    min-height: 100%;
-    min-width: 100%;
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
 }
 
  body {
     background-color: #38A3A5;
-    border: solid black 2px;
     
 }
 
@@ -29,27 +29,28 @@ header {
 
  header img {
     border-radius: 50%;
-    height: 25%;
-    width: 25%;
+    height: 60px;
+    width: 60px;
     object-fit: cover;
     border: solid black 1px;
 }
 
 header ul {
+    padding: 0;
     list-style-type: none;
     font-weight: bold; 
-    border: black solid 2px;
     display: flex;
+    justify-content: space-around;
     width: 80%;
+    text-decoration: underline;
 
 }
 
-header ul li {
+/* header ul li {
     
-}
+} */
 
 header h1 {
-    border: solid black 2px;
     align-self: center;
 
 }
@@ -57,7 +58,6 @@ header h1 {
 header ul li a {
     color: white;
     text-decoration: none;
-    border: solid black 2px;
 }
 
 header ul li a:hover {
@@ -81,6 +81,7 @@ header ul li a:hover {
 #aboutme p {
     margin-left: 3px;
     margin-right: 3px;
+    text-align: center;
 }
 
 .portfolio {
@@ -90,8 +91,6 @@ header ul li a:hover {
 #mainproj {
     display: flex;
     justify-content: center;
-    width: 70%;
-    height: 70%;
 }
 #mainproj img{
     height: 100%;
@@ -100,35 +99,46 @@ header ul li a:hover {
     border: solid black 1px;
 }
 
+.portfolio {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
 .portfolio figure {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 30%;
+    align-self: center;
+    height: 50%;
+    margin: 0;
 }
 
 .portfolio figure figcaption {
     border: solid black 2px;
     background-color: #C7F9CC;
+    text-align: center;
+    width: 100%;
 }
 
 .portfolio .sideproj {
-    border: solid black 2px;
-    
+    display: flex;
+    justify-content:space-evenly;
 }
 
 .portfolio .sideproj img {
     border: solid black 2px;
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
 }
 
 #contact {
     background-color: #C7F9CC;
     border: solid black 2px;
+    display: flex;
+    justify-content: space-around;
 }
 
 footer {
     display: flex;
     justify-content: center; 
+
 }
